@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18453268206CBFA900CF5B12 /* LayerCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453267206CBFA900CF5B12 /* LayerCreateController.swift */; };
+		1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453269206CC1CE00CF5B12 /* Helper.swift */; };
+		1845326D206CC52600CF5B12 /* layerShowImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845326C206CC52600CF5B12 /* layerShowImageController.swift */; };
+		1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845326E206CC9E300CF5B12 /* SplitImageController.swift */; };
+		18453271206CCE5100CF5B12 /* stretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453270206CCE5100CF5B12 /* stretchViewController.swift */; };
+		18453273206CD48900CF5B12 /* redrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453272206CD48900CF5B12 /* redrawViewController.swift */; };
+		18453276206CD7D300CF5B12 /* ChangeAnchorPointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453275206CD7D300CF5B12 /* ChangeAnchorPointController.swift */; };
+		1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453279206CDB9200CF5B12 /* AlarmClockController.swift */; };
+		1845327C206CDB9200CF5B12 /* AlarmClockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1845327A206CDB9200CF5B12 /* AlarmClockController.xib */; };
+		1845327E206CE48C00CF5B12 /* ConvertPointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845327D206CE48C00CF5B12 /* ConvertPointController.swift */; };
+		18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453281206CEBD900CF5B12 /* ZPositionController.swift */; };
+		18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18453282206CEBD900CF5B12 /* ZPositionController.xib */; };
+		18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453287206CED7A00CF5B12 /* HitTestingController.swift */; };
+		1845328A206CED7A00CF5B12 /* HitTestingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18453288206CED7A00CF5B12 /* HitTestingController.xib */; };
 		1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855170A206CB00300DCFDEE /* AppDelegate.swift */; };
 		1855170D206CB00300DCFDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855170C206CB00300DCFDEE /* ViewController.swift */; };
 		18551710206CB00400DCFDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855170E206CB00400DCFDEE /* Main.storyboard */; };
@@ -15,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18453267206CBFA900CF5B12 /* LayerCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerCreateController.swift; sourceTree = "<group>"; };
+		18453269206CC1CE00CF5B12 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1845326C206CC52600CF5B12 /* layerShowImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layerShowImageController.swift; sourceTree = "<group>"; };
+		1845326E206CC9E300CF5B12 /* SplitImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitImageController.swift; sourceTree = "<group>"; };
+		18453270206CCE5100CF5B12 /* stretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretchViewController.swift; sourceTree = "<group>"; };
+		18453272206CD48900CF5B12 /* redrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redrawViewController.swift; sourceTree = "<group>"; };
+		18453275206CD7D300CF5B12 /* ChangeAnchorPointController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAnchorPointController.swift; sourceTree = "<group>"; };
+		18453279206CDB9200CF5B12 /* AlarmClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockController.swift; sourceTree = "<group>"; };
+		1845327A206CDB9200CF5B12 /* AlarmClockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockController.xib; sourceTree = "<group>"; };
+		1845327D206CE48C00CF5B12 /* ConvertPointController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertPointController.swift; sourceTree = "<group>"; };
+		18453281206CEBD900CF5B12 /* ZPositionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPositionController.swift; sourceTree = "<group>"; };
+		18453282206CEBD900CF5B12 /* ZPositionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZPositionController.xib; sourceTree = "<group>"; };
+		18453287206CED7A00CF5B12 /* HitTestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingController.swift; sourceTree = "<group>"; };
+		18453288206CED7A00CF5B12 /* HitTestingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HitTestingController.xib; sourceTree = "<group>"; };
 		18551707206CB00300DCFDEE /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1855170A206CB00300DCFDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1855170C206CB00300DCFDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +63,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18453266206CBF6F00CF5B12 /* 图层树 */ = {
+			isa = PBXGroup;
+			children = (
+				18453267206CBFA900CF5B12 /* LayerCreateController.swift */,
+			);
+			path = "图层树";
+			sourceTree = "<group>";
+		};
+		1845326B206CC50100CF5B12 /* 寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				1845326C206CC52600CF5B12 /* layerShowImageController.swift */,
+				1845326E206CC9E300CF5B12 /* SplitImageController.swift */,
+				18453270206CCE5100CF5B12 /* stretchViewController.swift */,
+				18453272206CD48900CF5B12 /* redrawViewController.swift */,
+			);
+			path = "寄宿图";
+			sourceTree = "<group>";
+		};
+		18453274206CD7AE00CF5B12 /* 图层几何学 */ = {
+			isa = PBXGroup;
+			children = (
+				18453275206CD7D300CF5B12 /* ChangeAnchorPointController.swift */,
+				18453279206CDB9200CF5B12 /* AlarmClockController.swift */,
+				1845327A206CDB9200CF5B12 /* AlarmClockController.xib */,
+				1845327D206CE48C00CF5B12 /* ConvertPointController.swift */,
+				18453281206CEBD900CF5B12 /* ZPositionController.swift */,
+				18453282206CEBD900CF5B12 /* ZPositionController.xib */,
+				18453287206CED7A00CF5B12 /* HitTestingController.swift */,
+				18453288206CED7A00CF5B12 /* HitTestingController.xib */,
+			);
+			path = "图层几何学";
+			sourceTree = "<group>";
+		};
 		185516FE206CB00200DCFDEE = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +116,16 @@
 		18551709206CB00300DCFDEE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				18453274206CD7AE00CF5B12 /* 图层几何学 */,
+				1845326B206CC50100CF5B12 /* 寄宿图 */,
+				18453266206CBF6F00CF5B12 /* 图层树 */,
 				1855170A206CB00300DCFDEE /* AppDelegate.swift */,
 				1855170C206CB00300DCFDEE /* ViewController.swift */,
 				1855170E206CB00400DCFDEE /* Main.storyboard */,
 				18551711206CB00500DCFDEE /* Assets.xcassets */,
 				18551713206CB00500DCFDEE /* LaunchScreen.storyboard */,
 				18551716206CB00600DCFDEE /* Info.plist */,
+				18453269206CC1CE00CF5B12 /* Helper.swift */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -125,6 +191,9 @@
 			files = (
 				18551715206CB00500DCFDEE /* LaunchScreen.storyboard in Resources */,
 				18551712206CB00500DCFDEE /* Assets.xcassets in Resources */,
+				1845328A206CED7A00CF5B12 /* HitTestingController.xib in Resources */,
+				1845327C206CDB9200CF5B12 /* AlarmClockController.xib in Resources */,
+				18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */,
 				18551710206CB00400DCFDEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18453268206CBFA900CF5B12 /* LayerCreateController.swift in Sources */,
+				18453273206CD48900CF5B12 /* redrawViewController.swift in Sources */,
 				1855170D206CB00300DCFDEE /* ViewController.swift in Sources */,
+				18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
+				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
+				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
+				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
+				1845327E206CE48C00CF5B12 /* ConvertPointController.swift in Sources */,
+				18453271206CCE5100CF5B12 /* stretchViewController.swift in Sources */,
+				18453276206CD7D300CF5B12 /* ChangeAnchorPointController.swift in Sources */,
+				1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */,
+				1845326D206CC52600CF5B12 /* layerShowImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
