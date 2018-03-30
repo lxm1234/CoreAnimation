@@ -26,6 +26,17 @@
 		18551710206CB00400DCFDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855170E206CB00400DCFDEE /* Main.storyboard */; };
 		18551712206CB00500DCFDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18551711206CB00500DCFDEE /* Assets.xcassets */; };
 		18551715206CB00500DCFDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18551713206CB00500DCFDEE /* LaunchScreen.storyboard */; };
+		188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF223206DD4F800CCBE53 /* expandButtonAreaController.swift */; };
+		188EF227206DD57400CCBE53 /* HWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF226206DD57400CCBE53 /* HWButton.swift */; };
+		188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF228206DDDAE00CCBE53 /* UIButton + ExpandArea.swift */; };
+		188EF22C206DEA3C00CCBE53 /* beyondRangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF22A206DEA3C00CCBE53 /* beyondRangeController.swift */; };
+		188EF22D206DEA3C00CCBE53 /* beyondRangeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF22B206DEA3C00CCBE53 /* beyondRangeController.xib */; };
+		188EF22F206DEB0E00CCBE53 /* HitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF22E206DEB0E00CCBE53 /* HitTestView.swift */; };
+		188EF232206E025D00CCBE53 /* scrollViewPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF230206E025D00CCBE53 /* scrollViewPreviewController.swift */; };
+		188EF233206E025D00CCBE53 /* scrollViewPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF231206E025D00CCBE53 /* scrollViewPreviewController.xib */; };
+		188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF234206E029C00CCBE53 /* HitScrollView.swift */; };
+		188EF238206E0CF900CCBE53 /* AutoLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF236206E0CF900CCBE53 /* AutoLayoutController.swift */; };
+		188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF237206E0CF900CCBE53 /* AutoLayoutController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +61,17 @@
 		18551711206CB00500DCFDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18551714206CB00500DCFDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18551716206CB00600DCFDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EF223206DD4F800CCBE53 /* expandButtonAreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandButtonAreaController.swift; sourceTree = "<group>"; };
+		188EF226206DD57400CCBE53 /* HWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWButton.swift; sourceTree = "<group>"; };
+		188EF228206DDDAE00CCBE53 /* UIButton + ExpandArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + ExpandArea.swift"; sourceTree = "<group>"; };
+		188EF22A206DEA3C00CCBE53 /* beyondRangeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beyondRangeController.swift; sourceTree = "<group>"; };
+		188EF22B206DEA3C00CCBE53 /* beyondRangeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = beyondRangeController.xib; sourceTree = "<group>"; };
+		188EF22E206DEB0E00CCBE53 /* HitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestView.swift; sourceTree = "<group>"; };
+		188EF230206E025D00CCBE53 /* scrollViewPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewPreviewController.swift; sourceTree = "<group>"; };
+		188EF231206E025D00CCBE53 /* scrollViewPreviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scrollViewPreviewController.xib; sourceTree = "<group>"; };
+		188EF234206E029C00CCBE53 /* HitScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitScrollView.swift; sourceTree = "<group>"; };
+		188EF236206E0CF900CCBE53 /* AutoLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutController.swift; sourceTree = "<group>"; };
+		188EF237206E0CF900CCBE53 /* AutoLayoutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +107,7 @@
 		18453274206CD7AE00CF5B12 /* 图层几何学 */ = {
 			isa = PBXGroup;
 			children = (
+				188EF225206DD55600CCBE53 /* View */,
 				18453275206CD7D300CF5B12 /* ChangeAnchorPointController.swift */,
 				18453279206CDB9200CF5B12 /* AlarmClockController.swift */,
 				1845327A206CDB9200CF5B12 /* AlarmClockController.xib */,
@@ -93,6 +116,13 @@
 				18453282206CEBD900CF5B12 /* ZPositionController.xib */,
 				18453287206CED7A00CF5B12 /* HitTestingController.swift */,
 				18453288206CED7A00CF5B12 /* HitTestingController.xib */,
+				188EF223206DD4F800CCBE53 /* expandButtonAreaController.swift */,
+				188EF22A206DEA3C00CCBE53 /* beyondRangeController.swift */,
+				188EF22B206DEA3C00CCBE53 /* beyondRangeController.xib */,
+				188EF230206E025D00CCBE53 /* scrollViewPreviewController.swift */,
+				188EF231206E025D00CCBE53 /* scrollViewPreviewController.xib */,
+				188EF236206E0CF900CCBE53 /* AutoLayoutController.swift */,
+				188EF237206E0CF900CCBE53 /* AutoLayoutController.xib */,
 			);
 			path = "图层几何学";
 			sourceTree = "<group>";
@@ -128,6 +158,17 @@
 				18453269206CC1CE00CF5B12 /* Helper.swift */,
 			);
 			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		188EF225206DD55600CCBE53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188EF226206DD57400CCBE53 /* HWButton.swift */,
+				188EF228206DDDAE00CCBE53 /* UIButton + ExpandArea.swift */,
+				188EF22E206DEB0E00CCBE53 /* HitTestView.swift */,
+				188EF234206E029C00CCBE53 /* HitScrollView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +234,10 @@
 				18551712206CB00500DCFDEE /* Assets.xcassets in Resources */,
 				1845328A206CED7A00CF5B12 /* HitTestingController.xib in Resources */,
 				1845327C206CDB9200CF5B12 /* AlarmClockController.xib in Resources */,
+				188EF22D206DEA3C00CCBE53 /* beyondRangeController.xib in Resources */,
+				188EF233206E025D00CCBE53 /* scrollViewPreviewController.xib in Resources */,
 				18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */,
+				188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */,
 				18551710206CB00400DCFDEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,19 +249,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188EF232206E025D00CCBE53 /* scrollViewPreviewController.swift in Sources */,
 				18453268206CBFA900CF5B12 /* LayerCreateController.swift in Sources */,
 				18453273206CD48900CF5B12 /* redrawViewController.swift in Sources */,
 				1855170D206CB00300DCFDEE /* ViewController.swift in Sources */,
 				18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */,
+				188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
+				188EF22C206DEA3C00CCBE53 /* beyondRangeController.swift in Sources */,
 				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
 				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
 				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
+				188EF227206DD57400CCBE53 /* HWButton.swift in Sources */,
 				1845327E206CE48C00CF5B12 /* ConvertPointController.swift in Sources */,
 				18453271206CCE5100CF5B12 /* stretchViewController.swift in Sources */,
 				18453276206CD7D300CF5B12 /* ChangeAnchorPointController.swift in Sources */,
 				1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */,
+				188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */,
+				188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */,
+				188EF22F206DEB0E00CCBE53 /* HitTestView.swift in Sources */,
 				1845326D206CC52600CF5B12 /* layerShowImageController.swift in Sources */,
+				188EF238206E0CF900CCBE53 /* AutoLayoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

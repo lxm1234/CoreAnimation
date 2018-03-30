@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="scrollViewPreviewController" customModule="CoreAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUt-RK-zux" customClass="HitScrollView" customModule="CoreAnimation" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="183" width="375" height="300"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TgN-0f-o4r">
+                            <rect key="frame" x="80" y="0.0" width="215" height="300"/>
+                            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="JdM-M4-KFS"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="2kE-fn-oyr"/>
+                        <constraint firstItem="TgN-0f-o4r" firstAttribute="centerY" secondItem="nUt-RK-zux" secondAttribute="centerY" id="FdL-Ni-ZA9"/>
+                        <constraint firstItem="TgN-0f-o4r" firstAttribute="leading" secondItem="tnY-cf-2kR" secondAttribute="leading" constant="80" id="UCH-R3-Pgo"/>
+                        <constraint firstItem="tnY-cf-2kR" firstAttribute="trailing" secondItem="TgN-0f-o4r" secondAttribute="trailing" constant="80" id="gvt-TM-J9b"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="tnY-cf-2kR"/>
+                    <connections>
+                        <outlet property="scrollerView" destination="TgN-0f-o4r" id="wRr-5v-8BG"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nUt-RK-zux" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8wh-Yv-S9b"/>
+                <constraint firstItem="nUt-RK-zux" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="9GZ-OJ-Cd2"/>
+                <constraint firstItem="nUt-RK-zux" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Y2g-cw-7vU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
