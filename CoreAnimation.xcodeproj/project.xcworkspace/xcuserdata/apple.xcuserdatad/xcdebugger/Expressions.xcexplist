@@ -14,6 +14,23 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "subLayerTransformController.viewDidLoad():subLayerTransformController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.twoImageView.layer">
+            </PersistentString>
+            <PersistentString
+               value = "self.oneImageView.layer">
+            </PersistentString>
+            <PersistentString
+               value = "self.containerView.layer.sublayers">
+            </PersistentString>
+            <PersistentString
+               value = "self.containerView.subLayers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "HitTestView.hitTest(_:with:):HitTestView.swift">
          <PersistentStrings>
             <PersistentString

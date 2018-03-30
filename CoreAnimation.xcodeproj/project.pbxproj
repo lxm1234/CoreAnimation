@@ -51,6 +51,13 @@
 		188EF264206E126A00CCBE53 /* DynamicMaskImprovedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF262206E126A00CCBE53 /* DynamicMaskImprovedController.swift */; };
 		188EF268206E127C00CCBE53 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF266206E127C00CCBE53 /* FilterViewController.swift */; };
 		188EF269206E127C00CCBE53 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF267206E127C00CCBE53 /* FilterViewController.xib */; };
+		189463B9206E3A48005D5A42 /* AffineTransformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463B8206E3A48005D5A42 /* AffineTransformController.swift */; };
+		189463BB206E3ED6005D5A42 /* BasicThreeDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463BA206E3ED6005D5A42 /* BasicThreeDViewController.swift */; };
+		189463BE206E3EE6005D5A42 /* subLayerTransformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463BC206E3EE6005D5A42 /* subLayerTransformController.swift */; };
+		189463BF206E3EE6005D5A42 /* subLayerTransformController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189463BD206E3EE6005D5A42 /* subLayerTransformController.xib */; };
+		189463C1206E3EFC005D5A42 /* InAndOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463C0206E3EFC005D5A42 /* InAndOutViewController.swift */; };
+		189463C4206E3F0B005D5A42 /* threeDTransformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463C2206E3F0B005D5A42 /* threeDTransformController.swift */; };
+		189463C5206E3F0B005D5A42 /* threeDTransformController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189463C3206E3F0B005D5A42 /* threeDTransformController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +107,13 @@
 		188EF262206E126A00CCBE53 /* DynamicMaskImprovedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMaskImprovedController.swift; sourceTree = "<group>"; };
 		188EF266206E127C00CCBE53 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		188EF267206E127C00CCBE53 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		189463B8206E3A48005D5A42 /* AffineTransformController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransformController.swift; sourceTree = "<group>"; };
+		189463BA206E3ED6005D5A42 /* BasicThreeDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicThreeDViewController.swift; sourceTree = "<group>"; };
+		189463BC206E3EE6005D5A42 /* subLayerTransformController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subLayerTransformController.swift; sourceTree = "<group>"; };
+		189463BD206E3EE6005D5A42 /* subLayerTransformController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = subLayerTransformController.xib; sourceTree = "<group>"; };
+		189463C0206E3EFC005D5A42 /* InAndOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAndOutViewController.swift; sourceTree = "<group>"; };
+		189463C2206E3F0B005D5A42 /* threeDTransformController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDTransformController.swift; sourceTree = "<group>"; };
+		189463C3206E3F0B005D5A42 /* threeDTransformController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = threeDTransformController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +146,7 @@
 		18551709206CB00300DCFDEE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				189463B7206E3A08005D5A42 /* 变换 */,
 				188EF245206E101900CCBE53 /* 视觉效果 */,
 				188EF23D206E0EA400CCBE53 /* 图层几何学 */,
 				188EF23C206E0E8700CCBE53 /* 图层树 */,
@@ -221,6 +236,20 @@
 			name = "视觉效果";
 			sourceTree = "<group>";
 		};
+		189463B7206E3A08005D5A42 /* 变换 */ = {
+			isa = PBXGroup;
+			children = (
+				189463B8206E3A48005D5A42 /* AffineTransformController.swift */,
+				189463BA206E3ED6005D5A42 /* BasicThreeDViewController.swift */,
+				189463BC206E3EE6005D5A42 /* subLayerTransformController.swift */,
+				189463BD206E3EE6005D5A42 /* subLayerTransformController.xib */,
+				189463C0206E3EFC005D5A42 /* InAndOutViewController.swift */,
+				189463C2206E3F0B005D5A42 /* threeDTransformController.swift */,
+				189463C3206E3F0B005D5A42 /* threeDTransformController.xib */,
+			);
+			name = "变换";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,9 +319,11 @@
 				188EF233206E025D00CCBE53 /* scrollViewPreviewController.xib in Resources */,
 				18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */,
 				188EF259206E121D00CCBE53 /* MaskViewController.xib in Resources */,
+				189463C5206E3F0B005D5A42 /* threeDTransformController.xib in Resources */,
 				188EF251206E11C800CCBE53 /* shadowTailoringController.xib in Resources */,
 				188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */,
 				188EF269206E127C00CCBE53 /* FilterViewController.xib in Resources */,
+				189463BF206E3EE6005D5A42 /* subLayerTransformController.xib in Resources */,
 				18551710206CB00400DCFDEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +340,8 @@
 				18453273206CD48900CF5B12 /* redrawViewController.swift in Sources */,
 				1855170D206CB00300DCFDEE /* ViewController.swift in Sources */,
 				18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */,
+				189463BE206E3EE6005D5A42 /* subLayerTransformController.swift in Sources */,
+				189463B9206E3A48005D5A42 /* AffineTransformController.swift in Sources */,
 				188EF260206E125A00CCBE53 /* TwoMethodsMoveViewController.swift in Sources */,
 				188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
@@ -316,6 +349,8 @@
 				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
 				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
 				188EF25C206E124900CCBE53 /* DynamicMaskController.swift in Sources */,
+				189463C4206E3F0B005D5A42 /* threeDTransformController.swift in Sources */,
+				189463C1206E3EFC005D5A42 /* InAndOutViewController.swift in Sources */,
 				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
 				188EF254206E11EA00CCBE53 /* shadowPathController.swift in Sources */,
 				188EF24C206E11B200CCBE53 /* shadowController.swift in Sources */,
@@ -326,6 +361,7 @@
 				1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */,
 				188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */,
 				188EF264206E126A00CCBE53 /* DynamicMaskImprovedController.swift in Sources */,
+				189463BB206E3ED6005D5A42 /* BasicThreeDViewController.swift in Sources */,
 				188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */,
 				188EF22F206DEB0E00CCBE53 /* HitTestView.swift in Sources */,
 				188EF268206E127C00CCBE53 /* FilterViewController.swift in Sources */,
