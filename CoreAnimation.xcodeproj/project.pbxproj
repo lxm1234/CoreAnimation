@@ -37,6 +37,20 @@
 		188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF234206E029C00CCBE53 /* HitScrollView.swift */; };
 		188EF238206E0CF900CCBE53 /* AutoLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF236206E0CF900CCBE53 /* AutoLayoutController.swift */; };
 		188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF237206E0CF900CCBE53 /* AutoLayoutController.xib */; };
+		188EF248206E102F00CCBE53 /* cornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF246206E102F00CCBE53 /* cornerViewController.xib */; };
+		188EF249206E102F00CCBE53 /* cornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF247206E102F00CCBE53 /* cornerViewController.swift */; };
+		188EF24C206E11B200CCBE53 /* shadowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF24A206E11B200CCBE53 /* shadowController.swift */; };
+		188EF24D206E11B200CCBE53 /* shadowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF24B206E11B200CCBE53 /* shadowController.xib */; };
+		188EF250206E11C800CCBE53 /* shadowTailoringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF24E206E11C800CCBE53 /* shadowTailoringController.swift */; };
+		188EF251206E11C800CCBE53 /* shadowTailoringController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF24F206E11C800CCBE53 /* shadowTailoringController.xib */; };
+		188EF254206E11EA00CCBE53 /* shadowPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF252206E11EA00CCBE53 /* shadowPathController.swift */; };
+		188EF258206E121D00CCBE53 /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF256206E121D00CCBE53 /* MaskViewController.swift */; };
+		188EF259206E121D00CCBE53 /* MaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF257206E121D00CCBE53 /* MaskViewController.xib */; };
+		188EF25C206E124900CCBE53 /* DynamicMaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF25A206E124900CCBE53 /* DynamicMaskController.swift */; };
+		188EF260206E125A00CCBE53 /* TwoMethodsMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF25E206E125A00CCBE53 /* TwoMethodsMoveViewController.swift */; };
+		188EF264206E126A00CCBE53 /* DynamicMaskImprovedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF262206E126A00CCBE53 /* DynamicMaskImprovedController.swift */; };
+		188EF268206E127C00CCBE53 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF266206E127C00CCBE53 /* FilterViewController.swift */; };
+		188EF269206E127C00CCBE53 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EF267206E127C00CCBE53 /* FilterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +86,20 @@
 		188EF234206E029C00CCBE53 /* HitScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitScrollView.swift; sourceTree = "<group>"; };
 		188EF236206E0CF900CCBE53 /* AutoLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutController.swift; sourceTree = "<group>"; };
 		188EF237206E0CF900CCBE53 /* AutoLayoutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutController.xib; sourceTree = "<group>"; };
+		188EF246206E102F00CCBE53 /* cornerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cornerViewController.xib; sourceTree = "<group>"; };
+		188EF247206E102F00CCBE53 /* cornerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cornerViewController.swift; sourceTree = "<group>"; };
+		188EF24A206E11B200CCBE53 /* shadowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadowController.swift; sourceTree = "<group>"; };
+		188EF24B206E11B200CCBE53 /* shadowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shadowController.xib; sourceTree = "<group>"; };
+		188EF24E206E11C800CCBE53 /* shadowTailoringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadowTailoringController.swift; sourceTree = "<group>"; };
+		188EF24F206E11C800CCBE53 /* shadowTailoringController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shadowTailoringController.xib; sourceTree = "<group>"; };
+		188EF252206E11EA00CCBE53 /* shadowPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadowPathController.swift; sourceTree = "<group>"; };
+		188EF256206E121D00CCBE53 /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
+		188EF257206E121D00CCBE53 /* MaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskViewController.xib; sourceTree = "<group>"; };
+		188EF25A206E124900CCBE53 /* DynamicMaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMaskController.swift; sourceTree = "<group>"; };
+		188EF25E206E125A00CCBE53 /* TwoMethodsMoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoMethodsMoveViewController.swift; sourceTree = "<group>"; };
+		188EF262206E126A00CCBE53 /* DynamicMaskImprovedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMaskImprovedController.swift; sourceTree = "<group>"; };
+		188EF266206E127C00CCBE53 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		188EF267206E127C00CCBE53 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +132,7 @@
 		18551709206CB00300DCFDEE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				188EF245206E101900CCBE53 /* 视觉效果 */,
 				188EF23D206E0EA400CCBE53 /* 图层几何学 */,
 				188EF23C206E0E8700CCBE53 /* 图层树 */,
 				188EF23A206E0E3C00CCBE53 /* 寄宿图 */,
@@ -171,6 +200,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		188EF245206E101900CCBE53 /* 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				188EF247206E102F00CCBE53 /* cornerViewController.swift */,
+				188EF246206E102F00CCBE53 /* cornerViewController.xib */,
+				188EF24A206E11B200CCBE53 /* shadowController.swift */,
+				188EF24B206E11B200CCBE53 /* shadowController.xib */,
+				188EF24E206E11C800CCBE53 /* shadowTailoringController.swift */,
+				188EF24F206E11C800CCBE53 /* shadowTailoringController.xib */,
+				188EF252206E11EA00CCBE53 /* shadowPathController.swift */,
+				188EF256206E121D00CCBE53 /* MaskViewController.swift */,
+				188EF257206E121D00CCBE53 /* MaskViewController.xib */,
+				188EF25A206E124900CCBE53 /* DynamicMaskController.swift */,
+				188EF25E206E125A00CCBE53 /* TwoMethodsMoveViewController.swift */,
+				188EF262206E126A00CCBE53 /* DynamicMaskImprovedController.swift */,
+				188EF266206E127C00CCBE53 /* FilterViewController.swift */,
+				188EF267206E127C00CCBE53 /* FilterViewController.xib */,
+			);
+			name = "视觉效果";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,11 +283,16 @@
 				18551715206CB00500DCFDEE /* LaunchScreen.storyboard in Resources */,
 				18551712206CB00500DCFDEE /* Assets.xcassets in Resources */,
 				1845328A206CED7A00CF5B12 /* HitTestingController.xib in Resources */,
+				188EF248206E102F00CCBE53 /* cornerViewController.xib in Resources */,
 				1845327C206CDB9200CF5B12 /* AlarmClockController.xib in Resources */,
 				188EF22D206DEA3C00CCBE53 /* beyondRangeController.xib in Resources */,
+				188EF24D206E11B200CCBE53 /* shadowController.xib in Resources */,
 				188EF233206E025D00CCBE53 /* scrollViewPreviewController.xib in Resources */,
 				18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */,
+				188EF259206E121D00CCBE53 /* MaskViewController.xib in Resources */,
+				188EF251206E11C800CCBE53 /* shadowTailoringController.xib in Resources */,
 				188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */,
+				188EF269206E127C00CCBE53 /* FilterViewController.xib in Resources */,
 				18551710206CB00400DCFDEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,22 +309,31 @@
 				18453273206CD48900CF5B12 /* redrawViewController.swift in Sources */,
 				1855170D206CB00300DCFDEE /* ViewController.swift in Sources */,
 				18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */,
+				188EF260206E125A00CCBE53 /* TwoMethodsMoveViewController.swift in Sources */,
 				188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
 				188EF22C206DEA3C00CCBE53 /* beyondRangeController.swift in Sources */,
 				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
 				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
+				188EF25C206E124900CCBE53 /* DynamicMaskController.swift in Sources */,
 				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
+				188EF254206E11EA00CCBE53 /* shadowPathController.swift in Sources */,
+				188EF24C206E11B200CCBE53 /* shadowController.swift in Sources */,
 				188EF227206DD57400CCBE53 /* HWButton.swift in Sources */,
 				1845327E206CE48C00CF5B12 /* ConvertPointController.swift in Sources */,
 				18453271206CCE5100CF5B12 /* stretchViewController.swift in Sources */,
 				18453276206CD7D300CF5B12 /* ChangeAnchorPointController.swift in Sources */,
 				1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */,
 				188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */,
+				188EF264206E126A00CCBE53 /* DynamicMaskImprovedController.swift in Sources */,
 				188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */,
 				188EF22F206DEB0E00CCBE53 /* HitTestView.swift in Sources */,
+				188EF268206E127C00CCBE53 /* FilterViewController.swift in Sources */,
 				1845326D206CC52600CF5B12 /* layerShowImageController.swift in Sources */,
+				188EF250206E11C800CCBE53 /* shadowTailoringController.swift in Sources */,
 				188EF238206E0CF900CCBE53 /* AutoLayoutController.swift in Sources */,
+				188EF258206E121D00CCBE53 /* MaskViewController.swift in Sources */,
+				188EF249206E102F00CCBE53 /* cornerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

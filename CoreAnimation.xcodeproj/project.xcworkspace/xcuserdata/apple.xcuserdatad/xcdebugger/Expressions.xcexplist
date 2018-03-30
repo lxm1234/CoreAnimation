@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "DynamicMaskController.handlePan(handlePan:):DynamicMaskController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "recognizer.view">
+            </PersistentString>
+            <PersistentString
+               value = "self.showView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "HitTestView.hitTest(_:with:):HitTestView.swift">
          <PersistentStrings>
             <PersistentString
