@@ -26,6 +26,9 @@
 		18551710206CB00400DCFDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855170E206CB00400DCFDEE /* Main.storyboard */; };
 		18551712206CB00500DCFDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18551711206CB00500DCFDEE /* Assets.xcassets */; };
 		18551715206CB00500DCFDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18551713206CB00500DCFDEE /* LaunchScreen.storyboard */; };
+		186152BE2071D2A800D3ECD2 /* BezierPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186152BD2071D2A800D3ECD2 /* BezierPathViewController.swift */; };
+		186152C02071D48B00D3ECD2 /* BezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186152BF2071D48B00D3ECD2 /* BezierPathView.swift */; };
+		186152C32071F24500D3ECD2 /* CAShapeLayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186152C22071F24500D3ECD2 /* CAShapeLayerController.swift */; };
 		188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF223206DD4F800CCBE53 /* expandButtonAreaController.swift */; };
 		188EF227206DD57400CCBE53 /* HWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF226206DD57400CCBE53 /* HWButton.swift */; };
 		188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF228206DDDAE00CCBE53 /* UIButton + ExpandArea.swift */; };
@@ -82,6 +85,9 @@
 		18551711206CB00500DCFDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18551714206CB00500DCFDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18551716206CB00600DCFDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186152BD2071D2A800D3ECD2 /* BezierPathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathViewController.swift; sourceTree = "<group>"; };
+		186152BF2071D48B00D3ECD2 /* BezierPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathView.swift; sourceTree = "<group>"; };
+		186152C22071F24500D3ECD2 /* CAShapeLayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayerController.swift; sourceTree = "<group>"; };
 		188EF223206DD4F800CCBE53 /* expandButtonAreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandButtonAreaController.swift; sourceTree = "<group>"; };
 		188EF226206DD57400CCBE53 /* HWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWButton.swift; sourceTree = "<group>"; };
 		188EF228206DDDAE00CCBE53 /* UIButton + ExpandArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + ExpandArea.swift"; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 		18551709206CB00300DCFDEE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				186152BC2071D24D00D3ECD2 /* 专用图层 */,
 				189463B7206E3A08005D5A42 /* 变换 */,
 				188EF245206E101900CCBE53 /* 视觉效果 */,
 				188EF23D206E0EA400CCBE53 /* 图层几何学 */,
@@ -160,6 +167,16 @@
 				18453269206CC1CE00CF5B12 /* Helper.swift */,
 			);
 			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		186152BC2071D24D00D3ECD2 /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				186152BD2071D2A800D3ECD2 /* BezierPathViewController.swift */,
+				186152BF2071D48B00D3ECD2 /* BezierPathView.swift */,
+				186152C22071F24500D3ECD2 /* CAShapeLayerController.swift */,
+			);
+			name = "专用图层";
 			sourceTree = "<group>";
 		};
 		188EF23A206E0E3C00CCBE53 /* 寄宿图 */ = {
@@ -342,6 +359,7 @@
 				18453283206CEBD900CF5B12 /* ZPositionController.swift in Sources */,
 				189463BE206E3EE6005D5A42 /* subLayerTransformController.swift in Sources */,
 				189463B9206E3A48005D5A42 /* AffineTransformController.swift in Sources */,
+				186152C02071D48B00D3ECD2 /* BezierPathView.swift in Sources */,
 				188EF260206E125A00CCBE53 /* TwoMethodsMoveViewController.swift in Sources */,
 				188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
@@ -349,9 +367,11 @@
 				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
 				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
 				188EF25C206E124900CCBE53 /* DynamicMaskController.swift in Sources */,
+				186152BE2071D2A800D3ECD2 /* BezierPathViewController.swift in Sources */,
 				189463C4206E3F0B005D5A42 /* threeDTransformController.swift in Sources */,
 				189463C1206E3EFC005D5A42 /* InAndOutViewController.swift in Sources */,
 				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
+				186152C32071F24500D3ECD2 /* CAShapeLayerController.swift in Sources */,
 				188EF254206E11EA00CCBE53 /* shadowPathController.swift in Sources */,
 				188EF24C206E11B200CCBE53 /* shadowController.swift in Sources */,
 				188EF227206DD57400CCBE53 /* HWButton.swift in Sources */,
