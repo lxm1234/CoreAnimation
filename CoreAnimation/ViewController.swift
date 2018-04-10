@@ -26,7 +26,7 @@ class ViewController: UITableViewController {
         ,["锚点-观察frame","锚点-闹钟","坐标系转化","Z坐标轴","Hit Testing","扩大按钮的点击范围","子类超出父类范围","scrollView预览界面","自动布局Xib"]
         ,["圆角和图层边框","阴影","阴影剪裁","阴影按照形状剪裁", "基本图层蒙版","蒙版动态显示","动态移动控件的两种方法","蒙版动态显示增强","拉伸过滤"]
             ,["仿射变换", "3D变换--透视投影","3D变换--灭点","3D变换--父子同时变换","3D变换--手动旋转",]
-        ,["贝赛尔曲线基础知识","CAShapeLayer基础知识","进度条总结","CATextLayer"]
+        ,["贝赛尔曲线基础知识","CAShapeLayer基础知识","进度条总结","实现Label效果","富文本"]
         ,["UIView制作动画的三种方式"]
         ,["UIView更改透明度"]]
     
@@ -61,8 +61,9 @@ class ViewController: UITableViewController {
     "threeDTransformController"],
     ["BezierPathViewController",
     "CAShapeLayerController",
-    "CAProgressController",
-    "TextLayerListController"],
+    "CircleViewController",
+    "LabelLayerController",
+    "AttributeLabelController"],
     ["threeMethodsController"],
     ["changeOpacityController"]]
     

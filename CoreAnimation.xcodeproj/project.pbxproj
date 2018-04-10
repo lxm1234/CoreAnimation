@@ -21,6 +21,12 @@
 		18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18453282206CEBD900CF5B12 /* ZPositionController.xib */; };
 		18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18453287206CED7A00CF5B12 /* HitTestingController.swift */; };
 		1845328A206CED7A00CF5B12 /* HitTestingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18453288206CED7A00CF5B12 /* HitTestingController.xib */; };
+		184B1D37207C65D700C9F9F9 /* LabelLayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B1D35207C65D700C9F9F9 /* LabelLayerController.swift */; };
+		184B1D38207C65D700C9F9F9 /* LabelLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184B1D36207C65D700C9F9F9 /* LabelLayerController.xib */; };
+		184B1D3B207C6B6900C9F9F9 /* AttributeLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B1D39207C6B6900C9F9F9 /* AttributeLabelController.swift */; };
+		184B1D3C207C6B6900C9F9F9 /* AttributeLabelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184B1D3A207C6B6900C9F9F9 /* AttributeLabelController.xib */; };
+		184B1D3F207C805400C9F9F9 /* threeMethodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B1D3E207C805400C9F9F9 /* threeMethodsController.swift */; };
+		184B1D42207C868300C9F9F9 /* changeOpacityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B1D41207C868300C9F9F9 /* changeOpacityController.swift */; };
 		1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855170A206CB00300DCFDEE /* AppDelegate.swift */; };
 		1855170D206CB00300DCFDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855170C206CB00300DCFDEE /* ViewController.swift */; };
 		18551710206CB00400DCFDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855170E206CB00400DCFDEE /* Main.storyboard */; };
@@ -61,6 +67,8 @@
 		189463C1206E3EFC005D5A42 /* InAndOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463C0206E3EFC005D5A42 /* InAndOutViewController.swift */; };
 		189463C4206E3F0B005D5A42 /* threeDTransformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189463C2206E3F0B005D5A42 /* threeDTransformController.swift */; };
 		189463C5206E3F0B005D5A42 /* threeDTransformController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189463C3206E3F0B005D5A42 /* threeDTransformController.xib */; };
+		18A76F572079DCAB00846E2B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A76F562079DCAB00846E2B /* CircleViewController.swift */; };
+		18A76F5A2079DCED00846E2B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A76F592079DCED00846E2B /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +86,12 @@
 		18453282206CEBD900CF5B12 /* ZPositionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZPositionController.xib; sourceTree = "<group>"; };
 		18453287206CED7A00CF5B12 /* HitTestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingController.swift; sourceTree = "<group>"; };
 		18453288206CED7A00CF5B12 /* HitTestingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HitTestingController.xib; sourceTree = "<group>"; };
+		184B1D35207C65D700C9F9F9 /* LabelLayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLayerController.swift; sourceTree = "<group>"; };
+		184B1D36207C65D700C9F9F9 /* LabelLayerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelLayerController.xib; sourceTree = "<group>"; };
+		184B1D39207C6B6900C9F9F9 /* AttributeLabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeLabelController.swift; sourceTree = "<group>"; };
+		184B1D3A207C6B6900C9F9F9 /* AttributeLabelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeLabelController.xib; sourceTree = "<group>"; };
+		184B1D3E207C805400C9F9F9 /* threeMethodsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeMethodsController.swift; sourceTree = "<group>"; };
+		184B1D41207C868300C9F9F9 /* changeOpacityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeOpacityController.swift; sourceTree = "<group>"; };
 		18551707206CB00300DCFDEE /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1855170A206CB00300DCFDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1855170C206CB00300DCFDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +134,8 @@
 		189463C0206E3EFC005D5A42 /* InAndOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAndOutViewController.swift; sourceTree = "<group>"; };
 		189463C2206E3F0B005D5A42 /* threeDTransformController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDTransformController.swift; sourceTree = "<group>"; };
 		189463C3206E3F0B005D5A42 /* threeDTransformController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = threeDTransformController.xib; sourceTree = "<group>"; };
+		18A76F562079DCAB00846E2B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		18A76F592079DCED00846E2B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +149,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184B1D3D207C803000C9F9F9 /* 动画制作方式 */ = {
+			isa = PBXGroup;
+			children = (
+				184B1D3E207C805400C9F9F9 /* threeMethodsController.swift */,
+			);
+			name = "动画制作方式";
+			sourceTree = "<group>";
+		};
+		184B1D40207C867100C9F9F9 /* 动画和layer属性关系 */ = {
+			isa = PBXGroup;
+			children = (
+				184B1D41207C868300C9F9F9 /* changeOpacityController.swift */,
+			);
+			name = "动画和layer属性关系";
+			sourceTree = "<group>";
+		};
 		185516FE206CB00200DCFDEE = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +184,8 @@
 		18551709206CB00300DCFDEE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				184B1D40207C867100C9F9F9 /* 动画和layer属性关系 */,
+				184B1D3D207C803000C9F9F9 /* 动画制作方式 */,
 				186152BC2071D24D00D3ECD2 /* 专用图层 */,
 				189463B7206E3A08005D5A42 /* 变换 */,
 				188EF245206E101900CCBE53 /* 视觉效果 */,
@@ -172,9 +206,15 @@
 		186152BC2071D24D00D3ECD2 /* 专用图层 */ = {
 			isa = PBXGroup;
 			children = (
+				18A76F582079DCC700846E2B /* view */,
 				186152BD2071D2A800D3ECD2 /* BezierPathViewController.swift */,
 				186152BF2071D48B00D3ECD2 /* BezierPathView.swift */,
 				186152C22071F24500D3ECD2 /* CAShapeLayerController.swift */,
+				18A76F562079DCAB00846E2B /* CircleViewController.swift */,
+				184B1D35207C65D700C9F9F9 /* LabelLayerController.swift */,
+				184B1D36207C65D700C9F9F9 /* LabelLayerController.xib */,
+				184B1D39207C6B6900C9F9F9 /* AttributeLabelController.swift */,
+				184B1D3A207C6B6900C9F9F9 /* AttributeLabelController.xib */,
 			);
 			name = "专用图层";
 			sourceTree = "<group>";
@@ -267,6 +307,14 @@
 			name = "变换";
 			sourceTree = "<group>";
 		};
+		18A76F582079DCC700846E2B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18A76F592079DCED00846E2B /* CircleView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,12 +381,14 @@
 				1845327C206CDB9200CF5B12 /* AlarmClockController.xib in Resources */,
 				188EF22D206DEA3C00CCBE53 /* beyondRangeController.xib in Resources */,
 				188EF24D206E11B200CCBE53 /* shadowController.xib in Resources */,
+				184B1D3C207C6B6900C9F9F9 /* AttributeLabelController.xib in Resources */,
 				188EF233206E025D00CCBE53 /* scrollViewPreviewController.xib in Resources */,
 				18453284206CEBD900CF5B12 /* ZPositionController.xib in Resources */,
 				188EF259206E121D00CCBE53 /* MaskViewController.xib in Resources */,
 				189463C5206E3F0B005D5A42 /* threeDTransformController.xib in Resources */,
 				188EF251206E11C800CCBE53 /* shadowTailoringController.xib in Resources */,
 				188EF239206E0CF900CCBE53 /* AutoLayoutController.xib in Resources */,
+				184B1D38207C65D700C9F9F9 /* LabelLayerController.xib in Resources */,
 				188EF269206E127C00CCBE53 /* FilterViewController.xib in Resources */,
 				189463BF206E3EE6005D5A42 /* subLayerTransformController.xib in Resources */,
 				18551710206CB00400DCFDEE /* Main.storyboard in Resources */,
@@ -363,11 +413,14 @@
 				188EF260206E125A00CCBE53 /* TwoMethodsMoveViewController.swift in Sources */,
 				188EF229206DDDAE00CCBE53 /* UIButton + ExpandArea.swift in Sources */,
 				1855170B206CB00300DCFDEE /* AppDelegate.swift in Sources */,
+				184B1D42207C868300C9F9F9 /* changeOpacityController.swift in Sources */,
 				188EF22C206DEA3C00CCBE53 /* beyondRangeController.swift in Sources */,
 				1845326A206CC1CE00CF5B12 /* Helper.swift in Sources */,
 				1845326F206CC9E300CF5B12 /* SplitImageController.swift in Sources */,
+				184B1D37207C65D700C9F9F9 /* LabelLayerController.swift in Sources */,
 				188EF25C206E124900CCBE53 /* DynamicMaskController.swift in Sources */,
 				186152BE2071D2A800D3ECD2 /* BezierPathViewController.swift in Sources */,
+				18A76F5A2079DCED00846E2B /* CircleView.swift in Sources */,
 				189463C4206E3F0B005D5A42 /* threeDTransformController.swift in Sources */,
 				189463C1206E3EFC005D5A42 /* InAndOutViewController.swift in Sources */,
 				18453289206CED7A00CF5B12 /* HitTestingController.swift in Sources */,
@@ -381,6 +434,7 @@
 				1845327B206CDB9200CF5B12 /* AlarmClockController.swift in Sources */,
 				188EF224206DD4F800CCBE53 /* expandButtonAreaController.swift in Sources */,
 				188EF264206E126A00CCBE53 /* DynamicMaskImprovedController.swift in Sources */,
+				184B1D3B207C6B6900C9F9F9 /* AttributeLabelController.swift in Sources */,
 				189463BB206E3ED6005D5A42 /* BasicThreeDViewController.swift in Sources */,
 				188EF235206E029C00CCBE53 /* HitScrollView.swift in Sources */,
 				188EF22F206DEB0E00CCBE53 /* HitTestView.swift in Sources */,
@@ -390,6 +444,8 @@
 				188EF238206E0CF900CCBE53 /* AutoLayoutController.swift in Sources */,
 				188EF258206E121D00CCBE53 /* MaskViewController.swift in Sources */,
 				188EF249206E102F00CCBE53 /* cornerViewController.swift in Sources */,
+				184B1D3F207C805400C9F9F9 /* threeMethodsController.swift in Sources */,
+				18A76F572079DCAB00846E2B /* CircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
